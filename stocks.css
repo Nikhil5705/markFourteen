@@ -6,3 +6,15 @@ label{
     display: block;
     padding-bottom: 1rem ;
 }
+#heading{
+    color: #fbbf24;
+}
+.txt{
+    color: #b8870d;
+}
+#check-btn{
+    background-color: #fbbf24;
+    color: #362a47;
+    border: transparent;
+    padding: 0.5rem;
+}
