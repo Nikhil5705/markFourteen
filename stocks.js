@@ -24,7 +24,7 @@ function calculate(initial, stocks, current){
     // }
      if(initial===0||stocks===0||current===0)
     {   
-         output.innerText="Entered Value mut be greater than 0";
+         output.innerText="Please fill all fields with value greater than 0";
          return 0;
     }
     else if(initial<0||stocks<0||current<0)
