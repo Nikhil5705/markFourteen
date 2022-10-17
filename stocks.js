@@ -36,14 +36,14 @@ function calculate(initial, stocks, current){
     else if(current > initial ){
         const profit = (current - initial)*stocks;
         const profitpercentage = (profit/initial)*100;
-       output.innerText = "Profit is " + profit + " and Profit percentage is " +profitpercentage + "%";
+       output.innerText = "Profit is " + profit + " and Profit percentage is " +profitpercentage.toFixed(2) + "%";
        
      
      }
     else if(current < initial){
              const loss = (initial - current)*stocks;
              const losspercentage = (loss/initial)*100;
-             output.innerText = "loss is " +loss + " and loss percentage is " +losspercentage + "%" ;
+             output.innerText = "loss is " +loss + " and loss percentage is " +losspercentage.toFixed(2) + "%" ;
          }
     else{
              output.innerText = "No Loss No Gain, No Gain So Much Pain";

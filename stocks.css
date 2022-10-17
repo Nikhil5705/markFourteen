@@ -1,5 +1,5 @@
 body{
-    
+    background-color: #f7f5f0;
     text-align: center;
 }
 label{
@@ -11,10 +11,18 @@ label{
 }
 .txt{
     color: #b8870d;
+    padding: 1rem;
+
 }
 #check-btn{
     background-color: #fbbf24;
     color: #362a47;
     border: transparent;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    
+}
+#check-btn:hover{
+    background-color: #b8870d;
+    color: white;
 }
